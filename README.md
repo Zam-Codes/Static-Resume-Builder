@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resume Builder</h1>
+    <div>
+        <label for="name"> Name:</label>
+        <input type="text" id="name" name="name" required> 
+    </div>
+    <div>
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email" required>
+        <div>
+            <label for="company"> Company:</label>
+            <input type="text" id="company" name="company">
+        <div>
+            <label for="role"> Role:<label>
+            <input type="text" id="role" name="role">
+        <div>
+            <button onclick="generateResume()">Generate Resume</button>
+            <div id="resumeOutput"></div>
+            <script src="main.js"></script>
+    </form>
+</body>
+</html>
